@@ -198,6 +198,10 @@ ul {
     align-items: center;
     flex-direction: column;
 }
+.icono a {
+    text-decoration: none; 
+    color: inherit; 
+}
 
 .icono svg{
     height: 50px;
