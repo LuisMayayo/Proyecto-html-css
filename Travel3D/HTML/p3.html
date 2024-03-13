@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    <title> pantalla2</title>
-    <link rel="stylesheet" href="p2.css">
+    <title> pantalla3</title>
+    <link rel="stylesheet" href="../CSS/p3.css">
 </head>
 <body>
     <header class="header-container">
         <div class="header">
-         <img src="logo.png" alt="logo">
-            <nav class="nav">
-                <H2 class="nav-links">WELCOME TO TRAVEL 3D!</H2>
-            </nav>
+         <img src="../FOTOS/logo.png" alt="logo">
+            
             <div class="hamburger" onclick="toggleNav()">
                 <div></div>
                 <div></div>
@@ -23,15 +18,30 @@
             </div>
         </div>
     </header>
-   <div class="registro">
-      <h1 class="titulo">DIVE IN!</h1>
-   <div class="formularios">
-      <a href="p3.html" class="login"><button>LOGIN</button></a>
-      <a href="p1.html" class="reg"><button>REGISTER</button></a>
-   </div>
   
- 
-</div>
+   <div class="formularios">
+      <h1 class="titulo">LOGIN</h1>
+      <input class="nombre" type="text" id="nombre" placeholder="Nombre de usuario"><br>
+
+      <input class="email" type="email" id="email" placeholder="E-mail"><br>
+
+      <input class="Contraseñaje" id="Contraseña" placeholder="Contraseña"><br>
+   </div>
+   <div class="cb1"><br>
+      <input type="checkbox" id="politica" name="politica">
+      <label class="politica" for="politica"> He leído y acepto la Política de Privaciadad</label><br>
+   </div><br>
+   <br>
+   
+   <div class="boton">
+      <a href="p5.html">
+          <button class="button">Siguiente</button>
+      </a>
+  </div>
+
+   <button class="button contra">He olvidado mi contraseña</button>
+
+
       <footer class="footer">
          <div class="container">
             <div class="row">
